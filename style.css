@@ -1,0 +1,31 @@
+* {
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  display:table;
+  content:"";
+  clear:both;
+}
+
+.griglia {
+  width:600px;
+  margin:0 auto;
+}
+
+.quadrato {
+  width:200px;
+  height: 200px;
+  border:1px solid red;
+  float:left;
+  position: relative;
+}
+
+.numero{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50% , -50%);
+}
